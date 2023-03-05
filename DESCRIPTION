@@ -1,6 +1,6 @@
-Package: utils
+Package: utils_mdg
 Type: Package
-Title: utils
+Title: utils_mdg
 Version: 0.0.1
 Author: Marcos Díaz-Gay
 Maintainer: Marcos Díaz-Gay <mdiazgay@health.ucsd.edu>
