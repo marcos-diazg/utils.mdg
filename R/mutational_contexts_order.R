@@ -3,6 +3,17 @@
 # Author: Marcos Díaz-Gay
 # Date: Nov 17, 2022
 
+#' @title 
+#' 
+#' @description 
+#'
+#' @param 
+#' 
+#' @return
+#' 
+#' @export cosmic_fit
+#'
+#' @examples
 map_MP_to_SP <- function(dataset) {
 	if (nrow(dataset) == 96) {
 		new_dataset = dataset
@@ -36,6 +47,17 @@ map_MP_to_SP <- function(dataset) {
 	}
 }
 
+#' @title 
+#' 
+#' @description 
+#'
+#' @param 
+#' 
+#' @return
+#' 
+#' @export cosmic_fit
+#'
+#' @examples
 map_SP_to_MP <- function(dataset) {
 	if (nrow(dataset) == 96) {
 		new_dataset = dataset
