@@ -1,0 +1,9 @@
+\name{map_SP_to_MP}
+\alias{map_SP_to_MP}
+\title{map_SP_to_MP}
+\usage{
+map_SP_to_MP()
+}
+\description{
+map_SP_to_MP
+}
