@@ -1,3 +1,5 @@
 export(map_MP_to_SP)
 export(map_SP_to_MP)
+export(cos_sim)
+export(cos_sim_matrix)
 import(devtools)
