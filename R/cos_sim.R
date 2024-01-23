@@ -26,9 +26,9 @@ cos_sim <- function(x, y) {
 #'
 #' @param 
 #' 
-#' @return cosmic_fit
+#' @return
 #' 
-#' @export
+#' @export cosmic_fit
 #'
 #' @examples
 cos_sim_matrix <- function(mut_matrix1, mut_matrix2) {
