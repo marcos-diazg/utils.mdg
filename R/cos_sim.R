@@ -10,7 +10,7 @@
 #' 
 #' @return
 #' 
-#' @export
+#' @export cosmic_fit
 #'
 #' @examples
 cos_sim <- function(x, y) {
@@ -26,7 +26,7 @@ cos_sim <- function(x, y) {
 #'
 #' @param 
 #' 
-#' @return
+#' @return cosmic_fit
 #' 
 #' @export
 #'
