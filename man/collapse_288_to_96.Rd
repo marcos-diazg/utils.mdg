@@ -1,0 +1,9 @@
+\name{collapse_288_to_96}
+\alias{collapse_288_to_96}
+\title{collapse_288_to_96}
+\usage{
+collapse_288_to_96()
+}
+\description{
+collapse_288_to_96
+}
