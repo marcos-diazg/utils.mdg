@@ -18,6 +18,7 @@ collapse_288_to_96 <- function(x) {
         group_by(substr(rownames(x), 3, 9)) %>%
         summarise_all(sum) %>%
         rename(MutationType=`substr(rownames(x), 3, 9)`)
+    x = data.frame(x)
     rownames(x) = x$MutationType
     x = x[,-1]
 }
@@ -38,6 +39,7 @@ collapse_1536_to_96 <- function(x) {
         group_by(substr(rownames(x), 2, 8)) %>%
         summarise_all(sum) %>%
         rename(MutationType=`substr(rownames(x), 2, 8)`)
+    x = data.frame(x)
     rownames(x) = x$MutationType
     x = x[,-1]
 }
