@@ -1,0 +1,9 @@
+\name{collapse_1536_to_96}
+\alias{collapse_1536_to_96}
+\title{collapse_1536_to_96}
+\usage{
+collapse_1536_to_96()
+}
+\description{
+collapse_1536_to_96
+}

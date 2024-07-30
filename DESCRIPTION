@@ -1,7 +1,7 @@
 Package: utils.mdg
 Type: Package
 Title: utils.mdg
-Version: 0.0.2
+Version: 0.0.3
 Author: Marcos Díaz-Gay
 Maintainer: Marcos Díaz-Gay <mdiazgay@health.ucsd.edu>
 Description: Miscellaneous code used in different projects by Marcos Díaz-Gay
