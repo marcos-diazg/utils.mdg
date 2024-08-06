@@ -43,3 +43,24 @@ collapse_1536_to_96 <- function(x) {
     rownames(x) = x$MutationType
     x = x[,-1]
 }
+
+#' @title collapse_4608_to_96
+#' 
+#' @description 
+#'
+#' @param 
+#' 
+#' @return
+#' 
+#' @export collapse_4608_to_96
+#'
+#' @examples
+collapse_4608_to_96 <- function(x) {
+    x <- x %>%
+        group_by(substr(rownames(x), 4, 10)) %>%
+        summarise_all(sum) %>%
+        rename(MutationType=`substr(rownames(x), 4, 10)`)
+    x = data.frame(x)
+    rownames(x) = x$MutationType
+    x = x[,-1]
+}
